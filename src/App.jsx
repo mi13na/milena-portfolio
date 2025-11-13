@@ -5,9 +5,9 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/milena-portfolio">
         <Routes>
-          <Route index element={<Home/>}/>
+          <Route path="/" index element={<Home/>}/>
         </Routes>
       </BrowserRouter>
     </>

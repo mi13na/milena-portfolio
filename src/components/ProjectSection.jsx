@@ -13,43 +13,43 @@ const projectObj = {
         slides: [
             {
                 type: 'image',
-                src: "/images/foodFight1.png"
+                src: "/milena-portfolio/images/foodFight1.png"
             },
             {
                 type: 'image',
-                src: "/images/foodFight2.png"
+                src: "/milena-portfolio/images/foodFight2.png"
             },
             {
                 type: 'image',
-                src: "/images/foodFight3.png"
+                src: "/milena-portfolio/images/foodFight3.png"
             },
             {
                 type: 'image',
-                src: "/images/foodFight4.png"
+                src: "/milena-portfolio/images/foodFight4.png"
             },
             {
                 type: 'image',
-                src: "/images/foodFight5.png"
+                src: "/milena-portfolio/images/foodFight5.png"
             },
             {
                 type: 'image',
-                src: "/images/foodFight6.png"
+                src: "/milena-portfolio/images/foodFight6.png"
             },
             {
                 type: 'image',
-                src: "/images/foodFight7.png"
+                src: "/milena-portfolio/images/foodFight7.png"
             },
             {
                 type: 'image',
-                src: "/images/foodFight8.png"
+                src: "/milena-portfolio/images/foodFight8.png"
             },
             {
                 type: 'image',
-                src: "/images/foodFight9.png"
+                src: "/milena-portfolio/images/foodFight9.png"
             },
             {
                 type: 'video',
-                src: "/images/foodFight.mp4"
+                src: "/milena-portfolio/images/foodFight.mp4"
             }
         ]
     },
@@ -60,7 +60,7 @@ const projectObj = {
                 "As one of the main developers for this project, I worked with p5.js to implement game mechanics from Draggable and Dockable classes to the actual drag and drop mechanics of the cupcakes and the smoothies.",
                 "I published our project as an Indie game to itch.io where it continues to capture plays daily."
         ],
-        image: "/images/chefsPlaza.png"
+        image: "/milena-portfolio/images/chefsPlaza.png"
     }
 }
 
