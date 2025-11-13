@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-border: var(--border);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-card: var(--card);
+
+  /* you can also define some css animations here too 
+  ex: --animate-fade-in: fade-in 0.7s ease-out forwards; */
+}
+
+@layer base {
+  :root {
+    --background: #EBF0F1;
+    --foreground: #2B2118;
+    --primary: #F8F3E2;
+    --primary-foreground: #6F1A06;
+    --color-card: #F8F3E2;
+  }
+
+  .dark {
+    --background: #221811;
+    --foreground: #EBF0F1;
+    --primary: #652011;
+    --primary-foreground: #F8F2E2;
+  }
+
+  html {
+    @apply scroll-smooth;
+    scroll-padding-top: 15rem;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+
+  @media (width >= 640px) {
+    max-width: 640px;
+  }
+  @media (width >= 768px) {
+    max-width: 768px;
+  }
+  @media (width >= 1024px) {
+    max-width: 1024px;
+  }
+  @media (width >= 1400px) {
+    max-width: 1400px;
+  }
+}
+
+@utility card-hover {
+  @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
+}
+
+@utility button {
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium
+          transition-all duration-300 hover:shadow-[0_0_10px_rgba(248,243,226,0.5)]
+          hover:scale-105 active:scale-95;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+
