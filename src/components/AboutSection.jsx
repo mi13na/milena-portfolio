@@ -12,7 +12,7 @@ export const AboutSection = () => {
         <section className="py-24 px-4 relative mb-12">
             <div className="container mx-auto max-w-5xl">
                 <h2 id="about" className="text-primary-foreground text-3xl md:text-4xl font-bold mb-12 text-center">
-                    About Me Test
+                    About Me
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     {/* about */}
@@ -34,7 +34,7 @@ export const AboutSection = () => {
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="button">Get In Touch</a>
                             <a 
-                                href="MilenaSynekResume.pdf"
+                                href="/MilenaSynekResume.pdf"
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="px-6 py-2 rounded-full border border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 transition-colors duration-300"
@@ -47,13 +47,13 @@ export const AboutSection = () => {
                     <div>
                         <div className="flex gap-3">
                             <button 
-                                className="w-1/3 rounded-t-lg bg-primary text-primary-foreground hover:translate-y-2 p-2 active:bg-primary-500 min-w-[130px]"
+                                className="w-1/3 rounded-t-lg bg-primary text-primary-foreground hover:translate-y-2 p-2 active:bg-primary-500"
                                 onClick={() => setIsLang(true)} 
                             >
                                 Languages
                             </button>
                             <button 
-                                className="w-1/3 rounded-t-lg bg-primary text-primary-foreground hover:translate-y-2 p-2 min-w-[130px]" 
+                                className="w-1/3 rounded-t-lg bg-primary text-primary-foreground hover:translate-y-2 p-2 " 
                                 onClick={() => setIsLang(false)}
                             >
                                 Technologies
