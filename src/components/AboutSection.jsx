@@ -19,23 +19,24 @@ export const AboutSection = () => {
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">Passionate Problem-Solver & CS Student</h3>
                         <p className="text-muted-foreground">
-                            As a third-year studying CS at NYU, I possess both foundational knowledge
+                            As a senior studying CS at NYU, I possess both foundational knowledge 
                             and the understanding of relevant applications.  I have demonstrated my skills during 
-                            past internships and through involvement in various extra-curricular 
-                            activities such as Tech@NYU and the NYU radio's tech team.
+                            past internships at start-ups and legacy companies alike, and have participated in research and non-profit work.
+                            My leadership skills and interests have been fostered by my involvement in communities such as 
+                            Tech@NYU, The Ballet Collaborative, and the Wearable Art and Design Vertically Integrated Project.
                         </p>
                         <p className="text-muted-foreground">
-                            I enjoy employing my creativity
+                            I enjoy targeting my creativity
                             towards building impactful technology and thinking up sturdy, longlasting
                             solutions.  From semi-conductor work to full-stack web programming to game development, 
                             I love learning new technologies and broadening my skillset.  When I'm not on my computer, 
-                            I'm dancing ballet, experimenting with recipes, or crafting.
+                            I'm doing ballet, experimenting with recipes, or crafting.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="button">Get In Touch</a>
-                            <a 
-                                href="/MilenaSynekResume.pdf"
-                                target="_blank" 
+                            <a
+                                href={`${import.meta.env.BASE_URL}MilenaSynekResume.pdf`}
+                                target="_blank"
                                 rel="noopener noreferrer"
                                 className="px-6 py-2 rounded-full border border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 transition-colors duration-300"
                             >
